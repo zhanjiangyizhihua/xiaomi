@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var a = {
+            'h': "11",
+            s: true,
+            i: 2162,
+            Y: 1000,
+            "c": function () {
+                console.log(1)
+            },
+            "朱琪琪": "傻瓜",
+            "DHS": {
+                A: 'X',
+                "sa-as": 3
+            },
+            X: null,
+            la: undefined,
+        }
+
+        // key:value 键值对
+        for (var i in a) {
+            // console.log(i);
+            // console.log(a.i)
+            // console.log(a['i'])
+            console.log("键是：" + i + ", 值: " + a[i]);
+        }
+
+        // console.log(a['DHS'])
+        // var b = {
+        //     "朱琪琪": "傻瓜",
+        //     "name": "xxx"
+        // }
+    
+        // // 
+        // console.log(b.朱琪琪);
+        // console.log(b['朱琪琪']);
+        // // console.log(b[朱琪琪]);
+
+        // console.log(b.name);
+        // console.log(b['name']);
+
+
+        // var name = "朱琪琪"
+        // console.log(b[name]);
+
+        // a.朱琪琪
+        // a.c();
+        // var xxx =  a.i + a.DHS[sa-as];
+        // console.log(xxx)
+    </script>
+</body>
+
+</html>

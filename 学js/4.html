@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var dhs = {
+            z: 1,
+            x: 2,
+            c: 3,
+            v: 4,
+            b: 5,
+        }
+        var array = [6, 7, 8, 9, 1]
+        var total = 1;
+        for (var x in dhs) {
+            total = total * dhs[x];
+        }
+        // var total = 1;
+        for (i = 0; i < array.length; i++) {
+            total = total * array[i];
+        }
+        
+        // var q = total;
+        // var w = total1;
+        document.write(total);
+    </script>
+</body>
+
+</html>

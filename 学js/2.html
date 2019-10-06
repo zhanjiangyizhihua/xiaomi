@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = 1;
+        var a = 2
+        var b = 2;
+        var c = a+b;
+
+        var a = {
+            x: 2,
+            "x-q": 4,
+            k: 8,
+            'x-a': 9,
+            p: 66
+        }
+        var total = 1;
+        // document.write(a.x * a['x-q'] * a.k * a['x-a'] * a.p);
+        for(var i in a){
+            total=total*a[i];
+
+        }
+        document.write(total);
+
+        
+    </script>
+</body>
+
+</html>

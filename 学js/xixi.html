@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        var c = document.getElementsByTagName('body');
+        var a = document.createElement("p");
+        var b = document.createTextNode('111');
+        a.appendChild(b);
+        c[0].appendChild(a);
+        a.setAttribute('id', 'xxx');
+        // c[0].removeChild(a);
+        // a.removeAttribute('id');
+        // a.innerHTML = 222
+        a.parentNode.removeChild(a);
+    </script>
+</body>
+
+</html>
